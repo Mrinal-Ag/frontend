@@ -1,0 +1,29 @@
+.homer{
+   margin-top: 80px;
+       
+       /* fle */
+       /* align-items: flex-end; */
+     
+      background: #f3f3f6;
+      width: 100%;
+   }
+   
+   .Homefeed{
+       width: 60vw;
+       display: flex;
+       font-family: 'Open Sans', sans-serif;
+       /* background: #2c3e50; */
+       background: #f3f3f6;
+      
+       /* position: absolute; */
+   }
+   
+   .infobar {
+       margin-top: 80px;
+       padding: 20px;
+       border-radius: 12px;
+       background-color: #f9f9f9;
+       height: 100vh;
+       /* box-sizing: border-box; */
+       /* float: right; */
+   }

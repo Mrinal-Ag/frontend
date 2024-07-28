@@ -1,0 +1,210 @@
+/* NOTIFICATION POP-UP  */
+
+.notify-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.cross-btn{
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  color:#959595;
+}
+
+.notify {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.infobar {
+  /* width: 65%px; */
+  padding: 20px;
+  padding-top: 80px;
+ 
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  height: fit-content;
+  /* box-sizing: border-box; */
+  float: right;
+  max-width: 25%;
+ 
+  margin-right: 3vw;
+}
+
+.info-content{
+  display: flex;
+  /* margin: 5px; */
+ 
+  overflow: hidden;
+}
+
+.info-image {
+  /* background-color: #ddd; */
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.info-info{
+  margin: 5px;
+  font-size: 15px;
+  width: 10.8rem;
+  float: left;
+  cursor: pointer;
+}
+
+.info-info div{
+  overflow: hidden;
+  height: 1rem;
+
+}
+
+.info-info p {
+  color: #666;
+    margin: 2px;
+    font-size: 12px;
+    overflow: hidden;
+    width: 11rem;
+}
+
+.info-select{
+
+  float: right;
+}
+
+.info-select img{
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.info-select :hover{
+  cursor: pointer;
+}
+
+.info-tags span {
+  display: inline-block;
+  background-color: #e1e1e1;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.education strong {
+  display: block;
+  color: #333;
+  margin-top: 10px;
+}
+
+.education p {
+  font-size: 14px;
+  color: #666;
+}
+
+.info-bio p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 0;
+}
+
+.info-section {
+  margin-top: 20px;
+}
+
+.info-section h3 {
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.contact-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-button:hover {
+  background-color: #45a049;
+}
+/* ... [other CSS styles] ... */
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  /* transition:  ease,0.4s; */
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #ddd;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel, .panel.instant-close {
+  padding: 0px 0px;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 1.5s ease-out;
+  max-height: 0;
+  /* transition: max-height 1.5s ease-out; */
+}
+
+.panel.open {
+  display: block;
+  max-height: 1000px; /* Adjust as needed */
+}
+
+.fixed-bottom{
+  bottom: 0;
+}
+/* .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.panel.open {
+  display: block;
+} */
+
+@media(min-width:0px) and (max-width:550px){
+
+  .infobar{
+    max-width: 70%;
+      width: 100%;
+      margin-left: 10vw;
+  }
+
+}
+
+@media(max-width: 750px){
+ .infobar{
+  padding-top: 0px;
+ }
+ 
+}

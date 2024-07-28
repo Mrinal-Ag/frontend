@@ -1,0 +1,17 @@
+.proj-photo img{
+    /* height: 20vw;
+    width: 30vw; */
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.proj-photo-upload{
+        cursor: pointer;
+        background-color: #BAE84D;
+        width: 4rem;
+        height: 1.5rem;
+        font-size: 0.8rem;
+        border-radius: 15px;
+        border: none;
+    
+}

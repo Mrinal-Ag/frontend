@@ -1,0 +1,112 @@
+.AddCourses {
+  /* width: 100%; */
+  padding: 1.25rem 1.5rem;
+  align-items: center;
+  gap: 1.5rem;
+  /* background: #0404e0; */
+  border-radius: 0.5rem;
+  /* background: #BAE84D; */
+  /* Shadew 2 */
+  /* box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.03), 0px 12px 12px 0px rgba(0, 0, 0, 0.03), 0px 48px 19px 0px rgba(0, 0, 0, 0.00), 0px 75px 21px 0px rgba(0, 0, 0, 0.00); */
+}
+
+.Top3-biggest-box {
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(26.625rem, 1fr));
+  grid-gap: 1em;
+}
+
+.Top3-box {
+  width: 47%;
+  height: 11.25rem;
+  background-color: aqua;
+  border-radius: 18px;
+  background: #fff;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  /* justify-self: center; */
+}
+
+.Top3-skills {
+  display: flex;
+  /* padding: 0.38rem; */
+}
+
+.Top3-new1 {
+  border-radius: 0.875rem;
+  background: #edecff;
+  padding: 0.04rem;
+  margin: 0.38rem;
+}
+
+.Top3-new2 {
+  border-radius: 0.875rem;
+  background: #fff1e3;
+  padding: 0.04rem;
+  margin: 0.38rem;
+}
+
+.Top3-club {
+  overflow: hidden;
+  color: #929292;
+
+  text-overflow: ellipsis;
+  font-family: "Pangea Trial";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  flex: 1 0 0;
+}
+
+.Top3-clubsss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Top3-greybox {
+  border-radius: 14px;
+  background: #d9d9d9;
+  left: 20px;
+  top: 20px;
+  width: 8.75rem;
+  height: 8.75rem;
+  margin-left: 20px;
+}
+
+.Top3-sideinfo {
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-height: 3.75rem;
+  align-self: stretch;
+  /* margin-top: 1.25rem; */
+  padding: 1.25rem;
+  width: 14.4375;
+}
+
+@media screen and (max-width: 978px) {
+  .Top3-biggest-box {
+    flex-direction: column;
+  }
+
+  .Top3-box {
+    width: 90%;
+  }
+}
+
+.Top3-box:hover {
+  cursor: pointer;
+}

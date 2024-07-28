@@ -1,0 +1,492 @@
+.Open_Courses_LHS_Top_Left{
+    margin: 1rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 2rem;
+  }
+  
+  .Open_Courses_LHS_Top_right{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 2.5rem;
+     flex: 1 0 0;
+  }
+  
+  .Open_Courses_LHS{
+   /* margin-top: 6vh; */
+     display: flex;
+     /* width: 47.0625rem; */
+     min-height: 51.5rem;
+     background: #FFF;
+     /* padding-bottom: 11.25rem; */
+     align-items: flex-start;
+     gap: 1rem;
+     height:fit-content;
+     border-radius: 0.5rem;
+     margin-left: 20px;
+     height:fit-content;
+     padding-top:2.5rem;
+     /* padding-left: 1.5rem; */
+     
+     
+     
+     padding-right:1rem;
+     /* padding-left: 2.5rem; */
+  
+  }
+  
+  .Open_Courses_RHS{
+     display: flex;
+     margin-right: 20px;
+     width: 70%;
+     height: 41rem;
+     padding: 2.5rem;
+     padding-bottom: 2.5rem;
+     flex-direction: column;
+     align-items: center;
+     gap: 2.5rem;
+     flex-shrink: 0;
+     padding-right: 2.5rem;
+     
+  
+  
+     
+  
+     border-radius: 0.5rem;
+     background: #FFF;
+  
+     /* Shadew 2 */
+     box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.03), 0px 12px 12px 0px rgba(0, 0, 0, 0.03), 0px 48px 19px 0px rgba(0, 0, 0, 0.00), 0px 75px 21px 0px rgba(0, 0, 0, 0.00);
+  }
+  
+  .Open_Courses_Rectangle{
+     width: 5.25rem;
+     height: 5.25rem;
+  
+     border-radius: 30rem;
+     background: #D9D9D9;
+  }
+  
+  .Open_Courses_LHS_Top_Left_Icons{
+     /* margin-top: 2rem; */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 1rem;
+     justify-self: center;
+     align-items: center;
+     /* padding-left:1.5rem; */
+  }
+  
+  .Open_Courses_Thumbs_Up{
+     display: flex;
+     padding: 0.625rem 1.125rem;
+     flex-direction: column;
+     align-items: center;
+     gap: 0.125rem;
+  
+     border-radius: 2.5rem;
+     border: 1px solid #D9D9D9;
+     border: 2px solid rgb(196, 196, 196);
+  
+     background: #F5F5F7;
+  }
+  
+  .Open_Courses_Thumbs_Up_Number{
+     color: #929292;
+  
+     font-family: "Pangea Trial";
+     font-size: 0.75rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     
+  }
+  
+  .Open_Courses_Comments_Views{
+     display: flex;
+     /* width: 3.75rem; */
+     padding: 1.25rem 0.75rem;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 0.625rem;
+  
+     border-radius: 2.5rem;
+     background: #F5F5F7;
+     width:50px;
+     border: 2px solid rgb(196, 196, 196);
+     /* height:50px; */
+  }
+  
+  .Open_Courses_Comments{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 0.125rem;
+     align-self: stretch;
+  }
+  
+  .Open_Courses_Views{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 0.125rem;
+     align-self: stretch;
+  }
+  
+  .Open_Courses_Comment_Img{
+     /* width: 1.5rem; */
+     /* height: 1.5rem; */
+  }
+  
+  .Open_Courses_Comments_Number{
+     align-self: stretch;
+  
+     color: #929292;
+  
+     text-align: center;
+     font-family: "Pangea Trial";
+     font-size: 0.75rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+  }
+  
+  .Open_Courses_View_Img{
+     /* width: 1.5rem; */
+     /* height: 1.5rem; */
+  }
+  
+  .Open_Courses_Views_Number{
+     align-self: stretch;
+     color: #929292;
+  
+     text-align: center;
+     font-family: "Pangea Trial";
+     font-size: 0.75rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+  }
+  
+  .Open_Courses_Questions{
+    display: grid;
+  }
+  
+  .Open_Courses_Main_Question{
+     align-self: stretch;
+  
+     color: #000;
+     font-family: "Pangea Trial";
+     font-size: 1.25rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     /* margin-left: 0; */
+  }
+  
+  .Open_Courses_Post_Time{
+     align-self: stretch;
+  
+     color: #929292;
+     font-family: "Pangea Trial";
+     font-size: 0.875rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     /* margin: 0; */
+  }
+  
+  .Open_Courses_Post_Time_Date{
+     align-self: stretch;
+  
+     color: #929292;
+     font-family: "Pangea Trial";
+     font-size: 0.875rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+  }
+  
+  .Open_Courses_Main_Answer{
+     flex: 1 0 0;
+  
+     color: #000;
+     font-family: "Pangea Trial";
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+  
+     display: flex;
+     padding: 3.5rem 0rem;
+     justify-content: center;
+     align-items: center;
+     gap: 0.625rem;
+     align-self: stretch;
+  
+     border-top: 1px solid #E2E2E2;
+     border-bottom: 1px solid #E2E2E2;
+  }
+  
+  .Open_Courses_Main_Comments{
+    width: 95.5%;
+    /* margin-right: 11%; */
+    /* padding-right: 15%; */
+  
+  }
+  
+  .Open_Courses_Comment_Big_box{
+     display: flex;
+     padding: 1rem;
+     align-items: flex-end;
+     gap: 1.25rem;
+     align-self: stretch;
+  
+     border-radius: 0.25rem;
+     border: 1px solid #D3D3D3;
+     background: #F5F5F7;
+     width:100%
+  }
+  
+  .Open_Courses_Comment_here{
+     flex: 1 0 0;
+  
+     background: #F5F5F7;
+     font-family: "Pangea Trial";
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     border: none;
+     outline: none;
+  }
+  
+  .Open_Courses_Comment_Post_button{
+     /* width: 2.5625rem; */
+     cursor: pointer;
+     color: #000;
+     font-family: "Pangea Trial";
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     border: none;
+     background: #F5F5F7;
+  }
+  
+  .Open_Courses_Actual_Comments{
+     display: flex;
+     min-height: 27.875rem;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 1.25rem;
+     align-self: stretch;
+  }
+  
+  .Open_Courses_Actual_Sub_Comments{
+     /* display: flex; */
+     padding-bottom: 1.25rem;
+     align-items: flex-start;
+     gap: 1rem;
+     align-self: stretch;
+  
+     border-bottom: 1px solid #E2E2E2;
+  
+     display: flex;
+     flex-direction: column;
+     /* grid-template-rows: auto; */
+  }
+  
+  .Open_Courses_Sub_Comments_Profile{
+     /* width: 3rem; */
+     /* height: 3rem; */
+     fill: #D9D9D9;
+     display: flex;
+     /* grid-template-rows: auto; */
+     /* flex-direction: right; */
+     /* justify-content: center; */
+     /* align-items: center; */
+  }
+  
+  .Open_Courses_Comments_Content{
+     /* display: flex;
+     flex-direction: column;
+     align-items: flex-start; */
+     gap: 0.375rem;
+     /* display: grid; */
+     /* grid-template-columns: auto; */
+     /* flex: 1 0 0; */
+     /* display: flex; */
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     width: 36.0625rem;
+     /* max-height: 2px; */
+     /* background: red; */
+     margin-top: 2.5%;
+     margin-left: 2%;
+  }
+  
+  .Open_Courses_Comments_Content_Name_Time{
+     align-self: stretch;
+  
+     color: #000;
+     font-family: "Pangea Trial";
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+  }
+  
+  .Open_Courses_dot{
+     color: #929292;
+     font-family: "Pangea Trial";
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+  }
+  
+  .Open_Courses_timesinceposted{
+     color: #929292;
+     font-family: "Pangea Trial";
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+  }
+  
+  .Open_Courses_Cant_Think_Of_Any_Name{
+     align-self: stretch;
+  
+     color: #000;
+     font-family: "Pangea Trial";
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+  
+  }
+  
+  .Open_Courses_RHS_Related{
+     display: flex;
+     align-items: flex-start;
+     gap: 1.75rem;
+     align-self: stretch;
+  }
+  
+  .Open_Courses_RHS_Related{
+     max-height: 1.875rem;
+     flex: 1 0 0;
+  
+     color: #656565;
+     font-family: "Pangea Trial";
+     font-size: 1.5rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     /* background-color: blue; */
+  }
+  
+  .Open_Courses_RHS_Courses{
+     display: flex;
+     /* width: 21.6875rem; */
+     padding-bottom: 1rem;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 0.5rem;
+  
+     border-bottom: 1px solid #E2E2E2;
+     /* margin-top: -218%; */
+     /* background-color: red; */
+  }
+  
+  .Open_Courses_RHS_Black_Text{
+     align-self: stretch;
+  
+     color: #000;
+     font-family: "Pangea Trial";
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     /* background-color: red; */
+    
+  }
+  
+  .Open_Courses_Posted_By{
+     display: flex;
+     align-items: flex-start;
+     gap: 0.25rem;
+     flex: 1 0 0;
+  
+     color: #929292;
+     font-family: "Pangea Trial";
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+  }
+  
+  .Open_Courses_Posts{
+     display: grid;
+     grid-template-columns: 8fr 1fr;
+     color: #929292;
+     font-family: "Pangea Trial";
+     font-size: 0.75rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+  }
+  @media screen and (min-width:500px){
+    .Open_Courses{
+        display: grid;
+        margin-top: 7rem;
+        /* background: #FFF; */
+      grid-template-columns: 3fr 1fr;
+      gap: 20px;
+    }
+    
+   }
+    
+  
+    @media screen and (min-width:100px) and (max-width:800px) {
+      .Open_Courses_Main_Answer{
+        /* font-size: 2.8rem; */
+      }
+    
+    .Open_Courses_RHS_Black_Text{
+      /* font-size: 2rem; */
+    }
+    .Open_Courses_Posted_By{
+      /* font-size:2rem; */
+    }
+    .Open_Courses_Comments_Content_Name_Time{
+      /* font-size:1.5rem; */
+      display:flex;
+      flex-wrap:wrap;
+      
+    }
+    .Open_Courses_Cant_Think_Of_Any_Name{
+      /* font-size:1.3rem; */
+    
+      
+    }
+  }
+    
+    @media screen and (min-width:0px){
+      .Open_Courses_RHS{
+        height: fit-content;
+        /* padding-left: 8.5rem; */
+      }
+    }
+    .Open_Courses_Main_Question{
+      font-size:30px;
+    }
+  .Open_Courses_Post_Time{
+    font-size:1.323rem;
+  }

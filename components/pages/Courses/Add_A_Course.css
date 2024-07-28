@@ -1,0 +1,161 @@
+.Add_A_Course {
+    /* margin-left: 0; */
+    background: #F5F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4vw;
+    padding-right: 4vw;
+}
+
+.Add_A_Course-Biggest-Container {
+    display: flex;
+    /* width: 54.5625rem; Adjusted to full width */
+    height: fit-content; /* Changed to auto */
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centering horizontally */
+    border-radius: 0.5rem;
+    background: #FFF;
+    box-shadow: black;
+    margin-bottom: 2rem;
+}
+
+.Add_A_Course-Upper-Part {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering horizontally */
+    gap: 1.5rem;
+    align-self: stretch;
+    padding: 2.5rem;
+}
+
+.Add_A_Course-Lower-Part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centering horizontally */
+    align-self: stretch;
+}
+
+.Add_A_Course-Lower-Part-Post {
+    display: flex;
+    padding: 0.625rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 2.5rem;
+    border: none;
+    background: #BAE84D;
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Add_A_Course-Upper-Part-Course-Name {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; /* Centering vertically */
+    flex-direction: column;
+    gap: 1.75rem;
+    /* padding-left: 2.5rem;
+    padding-top: 2.5rem; */
+    align-self: stretch;
+}
+
+.Add_A_Course-Upper-Part-ThumbNail {
+
+    /* width: 15.25rem; Adjusted for desktop */
+    height: 15.25rem; /* Adjusted for desktop */
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #D3D3D3;
+}
+
+.Add_A_Course-Upper-Part-Write-Course-Name{
+    /* width: 100%; */
+    padding: 0.625rem 0.75rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 0.25rem;
+    border: 1px solid #D3D3D3;
+    background: #F5F5F7;
+}
+
+.Add_A_Course-Upper-Part-Category,
+.Add_A_Course-Upper-Part-Review,
+.Add_A_Course-Upper-Part-Link {
+    /* width: 49.5625rem; */
+    height: 1.5rem;
+    padding: 0.625rem 0.75rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 0.25rem;
+    border: 1px solid #D3D3D3;
+    background: #F5F5F7;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .Add_A_Course-Biggest-Container {
+        padding: 1.5rem;
+        margin:2rem
+    }
+
+    .Add_A_Course-Upper-Part {
+        gap: 1rem;
+    }
+
+    .Add_A_Course-Upper-Part-ThumbNail {
+        /* width: 100%; Adjusted for smaller screens */
+        height: auto; /* Adjusted for smaller screens */
+        border-radius: 0.25rem;
+    }
+}
+
+.Add_A_Course-Upper-Part-Category-text{
+   display: grid;
+}
+
+.Add_A_Course-Lower-Part-Cancel{
+    color: #656565;
+    text-align: center;
+    font-family: "Pangea Trial";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 2.5rem;
+    display: flex;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border: none;
+}
+
+.Add_A_Course-Upper-Part-Write-Course-Name-text{
+    padding: 1.75rem;
+}
+
+.Add_A_Course-Upper-Part-Review{
+    height: 9.875rem;
+}
+
+.Add_A_Course-Upper-Part-Review::placeholder-shown{
+    /* float: top; */
+    
+}
+
+.Add_A_Course-Lower-Part-Cancel:hover{
+    cursor: pointer;
+}
+
+.Add_A_Course-Lower-Part-Post{
+    cursor: pointer;
+}

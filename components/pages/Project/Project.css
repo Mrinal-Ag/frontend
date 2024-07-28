@@ -1,0 +1,307 @@
+body {
+  font-family: sans-serif;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.project-main {
+  display: flex;
+  margin: 1vw;
+  gap: 2vw;
+  margin-left: 4vw;
+  margin-top: 135px;
+  margin-bottom: 10px;
+}
+
+.content-shown {
+  display: inline-flex;
+  padding: 2.5rem;
+  padding-top: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border-radius: 1.5rem;
+  background: #fff;
+  width: 65vw;
+}
+/* WORKING ON ADD CONTENT  */
+.add-box {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5.5rem;
+  width: 15vw;
+  margin-left: 2vw;
+}
+
+.Id-div {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.project-projectId {
+  font-size: 1.2rem;
+  width: 280px;
+}
+
+.confirm-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+  /* flex-wrap: wrap; */
+  margin-top: 24rem;
+  width: 60rem;
+  justify-content: space-evenly;
+}
+
+.remove-btn {
+  display: flex;
+  padding: 0.625rem 1rem;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  /* flex: 1 0 0; */
+  border-radius: 2.5rem;
+  border: 1px solid #656565;
+  color: #656565;
+  text-align: center;
+  font-family: "Pangea Trial";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.continue-btn {
+  text-decoration: none;
+  width: 10rem;
+  display: flex;
+  padding: 0.625rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 2.5rem;
+  background: #bae84d;
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.add-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.3rem;
+  color: #656565;
+  font-family: "Pangea Trial";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.add-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.1rem;
+}
+
+.main-btn {
+  display: flex;
+  width: 17.1875vw;
+  padding: 0.75rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+
+  /* Shadew 2 */
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.03),
+    0px 12px 12px 0px rgba(0, 0, 0, 0.03), 0px 48px 19px 0px rgba(0, 0, 0, 0),
+    0px 75px 21px 0px rgba(0, 0, 0, 0);
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* WORKING ON CONTENT SHOWN  */
+
+.project-heading {
+  display: flex;
+  width: 62vw;
+  padding-bottom: 1rem;
+  align-items: center;
+  gap: 0.625rem;
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #929292;
+}
+.project-subheading {
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 62vw;
+  border: none;
+  height: auto;
+  outline: none;
+  margin-top: 1rem;
+}
+/* Difference b/w caption and description not clear 
+    Also textarea should be created instead of input text for these two
+*/
+.project-description {
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 62vw;
+  margin-top: 0.4rem;
+  border: none;
+  outline: none;
+  background: #fff;
+}
+
+.project-caption {
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 62vw;
+  margin-top: 0.4rem;
+  border: none;
+  outline: none;
+  background: #fff;
+}
+
+/* I want "Link: " to be already written on making a link input tag 
+    yet to be done
+*/
+.project-link {
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 62vw;
+  border: none;
+  outline: none;
+}
+
+/* Image not clear what to do */
+.project-image {
+  border-radius: 0.25rem;
+  border: 1px solid #d3d3d3;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+ 
+  /* height: 31.5rem; */
+  outline: none;
+  border: none;
+}
+
+/* No idea about attach pdf  */
+.project-pdf {
+  border-radius: 0.25rem;
+  border: 1px solid #d3d3d3;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+  width: 62vw;
+  /* height: 31.5rem; */
+  outline: none;
+  border: none;
+}
+
+.project-code-block {
+  border-radius: 0.25rem;
+  border: 1px solid #d3d3d3;
+  background: #f5f5f7;
+  display: flex;
+  padding: 1.5rem;
+  align-items: flex-start;
+  gap: 1.5rem;
+  outline: none;
+  width: 62vw;
+  margin-top: 6px;
+}
+
+@media(max-width: 1100px){
+    .confirm-content{
+        width: 64vw;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px){
+  .project-main{
+      margin-top: 40px;
+  }
+}
+
+@media(max-width: 600px){
+    .project-main{
+        flex-direction: column-reverse;
+    }
+
+    .add-btns{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 85vw;
+    }
+
+    .main-btn{
+        padding: 0.75rem 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .project-code-block{
+        font-size: 1.3rem;
+    }
+
+    .project-description{
+        font-size: 1.3rem;
+    }
+}

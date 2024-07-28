@@ -1,0 +1,198 @@
+.RHS{
+    font-family: 'Open Sans', sans-serif;
+	/* background: #2c3e50; */
+    background: #f3f3f6;
+    
+}
+
+.RHS-Add-Courses{
+    background-color: red;
+    display: flex;
+    width: 118%;
+    padding: 1.75rem 1.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    border-radius: 0.5rem;
+    background: #BAE84D;
+    border: none;
+
+    /* Shadew 2 */
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.03), 0px 12px 12px 0px rgba(0, 0, 0, 0.03), 0px 48px 19px 0px rgba(0, 0, 0, 0.00), 0px 75px 21px 0px rgba(0, 0, 0, 0.00);
+}
+
+.RHS-My-Courses{
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 1.75rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    border-radius: 0.5rem;
+    background: #FFF;
+
+    /* Shadew 2 */
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.03), 0px 12px 12px 0px rgba(0, 0, 0, 0.03), 0px 48px 19px 0px rgba(0, 0, 0, 0.00), 0px 75px 21px 0px rgba(0, 0, 0, 0.00);
+}
+
+.RHS-Biggest-Container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    width: 85%;
+    align-items: center;
+    margin:2rem;
+}
+
+.RHS-My-Courses-Upper-Part{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    align-self: stretch;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+
+.RHS-My-Courses-Content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.RHS-My-Courses-Content-Main{
+    display: flex;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.RHS-My-Courses-Content-Text{
+    align-self: stretch;
+
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.RHS-My-Courses-Content-Text-Below-Part-LHS{
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    flex: 1 0 0;
+}
+
+.RHS-My-Courses-Content-Text-Below-Part-Club-Name{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    flex: 1 0 0;
+
+    overflow: hidden;
+    color: #929292;
+    text-overflow: ellipsis;
+    font-family: "Pangea Trial";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.RHS-My-Courses-Content-Text-Below-Part-Date{
+    color: #929292;
+    font-family: "Pangea Trial";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* .RHS-My-Courses-Text-View-All{
+    float: right;
+} */
+
+.RHS-Add-Courses-My-Courses-Arrow{
+    background: #FFF;
+    border: none;
+}
+
+.RHS-Add-Courses-Ask-Question-Add-Button{
+    border: none;
+    background: #BAE84D;
+}
+
+.RHS-Ask-Questions-Pop-Up{
+    border-radius: 0.5rem;
+    background: #FFF;
+
+    display: flex;
+    width: 54.5625rem;
+    height: 51.5rem;
+    padding: 2.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.RHS-My-Courses-Text{
+    color: #656565;
+
+font-family: "Pangea Trial";
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+flex: 1 0 0;
+/* float: left; */
+}
+
+.RHS-My-Courses-Text-View-All{
+    color: #656565;
+
+font-family: "Pangea Trial";
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.RHS-My-Courses-Content-Text-Below-Part{
+    display: flex;
+align-items: center;
+gap: 1rem;
+align-self: stretch;
+}
+
+.RHS-Add-Courses:hover{
+    cursor: pointer;
+}
+
+.RHS-Add-Courses-My-Courses-Arrow:hover{
+    cursor: pointer;
+}
+
+.RHS-My-Courses-Text-View-All:hover{
+    cursor: pointer;
+    color: #000;
+}
+
+.RHS-My-Courses-Content-Main{
+    cursor: pointer;
+}
