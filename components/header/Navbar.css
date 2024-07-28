@@ -1,0 +1,341 @@
+.nav-items{
+  z-index:100;
+  top: 0; /* Stick it to the top of the viewport */
+  left:0;
+  position: fixed;
+  background: #FFF;
+  width: 100%; 
+  height: 4vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 0 2vh; Adjusted padding for smaller screens */
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.03), 0px 12px 12px 0px rgba(0, 0, 0, 0.03), 0px 27px 16px 0px rgba(0, 0, 0, 0.02), 0px 48px 19px 0px rgba(0, 0, 0, 0.00), 0px 75px 21px 0px rgba(0, 0, 0, 0.00);
+}
+.campus{
+  display:none;
+}
+/* Navbar item styles */
+.home,
+.queries,
+.courses,
+.search,
+.myprofile,
+.createproject {
+  display: flex;
+  align-items: center;
+  height: auto;
+  position: relative;
+  position: relative;
+  padding: 0.7vw 1vw;
+  border-radius: 4px;
+  font-family: "Pangea Trial";
+  font-size: 1.1vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color:#656565;
+}
+.home:link,
+.queries:link,
+.courses:link,
+.myprofile:link,
+.createproject:link {
+  color: inherit; /* Use the default text color */
+
+}
+
+
+.home {
+  /* background-color: #BAE84D; */
+  color:#656565;
+  margin-left: 1%; 
+}
+
+.queries {
+  margin-left: 2%; /* Converted from 1vw */
+}
+
+.courses {
+  margin-left: 2%; /* Converted from 1vw */
+}
+
+.search-input {
+  height: 2.3vw;
+  width: 37vw;
+  font-size: 1vw;
+  border-radius: 4px;
+  border: 1px solid #D3D3D3;
+  background: #F5F5F7;
+  padding-left: 1%;
+  margin-left: 8%; /* Converted from 6vw */
+  
+}
+
+.myprofile {
+  color: #000;
+  width: 6vw;
+  margin-left: 7%; /* Converted from 8vw */
+}
+
+.createproject {
+  background: rgba(186, 232, 77, 0.50);
+  margin-left: 5vw;
+  color: #000;
+  width: 10vw;
+  /* height: 2.5vh; */
+  margin-right: 3vw;
+  border-radius: 0.375rem;
+  border: 2px solid #BAE84D;
+  background: rgba(186, 232, 77, 0.50);
+}
+
+@media(max-width: 1300px){
+
+  .nav-items{
+    height: 6vw;
+  }
+  .home,
+.queries,
+.courses,
+.search,
+.myprofile,
+.createproject{
+  font-size: 1.8vw;
+}
+
+.myprofile{
+  width: 13vw;
+  margin-left: 4vw;
+}
+
+.search-input {
+  height: 3vw;
+  width: 27vw;
+  font-size: 1.8vw;
+  border-radius: 4px;
+  border: 1px solid #D3D3D3;
+  background: #F5F5F7;
+  padding-left: 1%;
+  margin-left: 5vw;
+}
+
+.createproject{
+  margin-left: 4vw;
+  margin-right: 1.4vw;
+  color: #000;
+  width: 21vw;
+}
+
+}
+
+
+
+@media (max-width: 768px) {
+  .campus{
+    display: block;
+    margin-left: 7%;
+    font-size: 2.5vh;
+    color:black;
+    margin-top:2vh;
+    font-weight: 800;
+  }
+  .hamburger {
+    padding-top: 4vw;
+    padding-bottom: 3vw;
+    padding-left: 2vw;
+    display: flex;
+    /* width: 110%; */
+    /* background: #BAE84D; */
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  @media(max-width:630px){
+    .hamburger{
+      width: 110%;
+    }
+  }
+
+  .ham-active{
+    background-color:#c4e96e;
+
+  }
+
+
+  .ham-heading{
+    font-size: 6vw;
+    font-weight: 700;
+    padding-left: 10vw;
+  }
+
+  .ham-heading-active{
+    display: none;
+  }
+
+  .horizontal-line{
+    color:#656565;
+    width:85%;
+    margin-left:7%;
+    margin-top: 5%;
+  }
+  .nav-items {
+    display: none;
+  }
+  
+  .hamburger-span-line {
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    height:1vh;
+    background-color: #656565;
+    margin: 0.5vw;
+    border-radius: 5px;
+  }
+  /* .hamburger-text{
+    margin-left: 40%;
+    margin-top: .5%;
+    font-size: 20px;
+    font-weight: 800;
+    color:#656565;
+  } */
+  .campus-main{
+    margin-top: 5%;
+  }
+  
+  .nav-items.open {
+    display: flex; /* Show Navbar items when the menu is toggled */
+    flex-direction: column;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    right: 30%;
+    bottom: 0;
+    left: 0; /* Adjusted to cover 70% of the screen */
+    align-items: flex-start;
+    width: 55%; /* Adjusted to cover 70% of the screen */
+    height: 100%;
+    padding: 10px;
+    transition: 1s ease-in-out;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.03), 0px 12px 12px 0px rgba(0, 0, 0, 0.03), 0px 27px 16px 0px rgba(0, 0, 0, 0.02), 0px 48px 19px 0px rgba(0, 0, 0, 0.00), 0px 75px 21px 0px rgba(0, 0, 0, 0.00);
+  }
+  
+  .home {
+    margin-left: 3%;
+    font-size: 2.5vh;
+    margin-top:10vh;
+    background-color: white;
+  }
+  
+  .search-input {
+    margin-left: 0px;
+    font-size: 2.5vh;
+    margin-top:2vh;
+    width: 80%;
+    padding: 10px;
+    border: none; /* Remove all borders */
+  border-bottom: 2px solid black; /* Add bottom border */
+  outline: none; 
+  background:#FFF;
+  }
+  
+  .queries,
+  .courses {
+    margin-left: 3%;
+    font-size: 2.5vh;
+    color:black;
+    margin-top:2vh;
+  }
+
+  .myprofile {
+    margin-left: 17px;
+    padding: 10px;
+    font-size: 2.5vh;
+    width: 25vw;
+    margin-top: auto;
+
+  }
+
+  .createproject {
+    align-self:left;
+    margin-left: 7%; /* Start from 5vw left margin */
+    font-size: 2.3vh;
+    padding-left:10%;
+    margin-top:2vh;
+    height:6vh;
+    width:70%;
+    border-radius:5px ;
+    border: 2px solid #BAE84D;
+    margin-bottom: 5vh; /* Adjust bottom margin as needed */
+  }
+}
+
+.home.active,
+.queries.active,
+.courses.active,
+.myprofile.active{
+  background-color: #BAE84D;
+  color: black;
+}
+
+
+
+
+/* App.css */
+.suggestions {
+  border: 1px solid #ccc;
+  border-top: none;
+  list-style: none;
+  margin: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  padding: 0;
+  position: absolute;
+  width: 80%;
+  z-index: 1;
+  margin-left: 3vw;
+  border-radius: 8px;
+}
+
+.suggestions li {
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  padding: 10px;
+  width: 30vw;
+  color: #000;
+font-family: "Pangea Trial";
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+.suggestions a{
+  text-decoration: none;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.suggestions img {
+  margin-right: 10px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+@media(max-width: 500px){
+  .hamburger{
+  width: 130%;
+}
+}

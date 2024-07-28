@@ -1,0 +1,120 @@
+/* .frame {
+  align-items: flex-end;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.5556vw;
+  position: relative;
+}
+
+.frame .div {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 18.5417vw;
+}
+
+.frame .div-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 0.5556vw;
+  position: relative;
+}
+
+.frame .rectangle-wrapper {
+  height: 1.1111vw;
+  position: relative;
+  width: 1.1111vw;
+}
+
+.frame .rectangle {
+  border: 0.1389vw solid;
+  border-color: #000000;
+  height: 0.4167vw;
+  left: 0.4167vw;
+  position: relative;
+  top: 0.4167vw; 
+  width: 0.4167vw; 
+}
+
+.frame .text-wrapper {
+  color: #000000;
+  font-family: "Pangea Trial-Medium", Helvetica;
+  font-size: 0.9722vw;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.0694vw;
+  position: relative;
+  width: 4.4792vw;
+}
+
+.frame .div-wrapper {
+  align-items: flex-end;
+  background-color: #fff1e3;
+  border-radius: 1.3889vw;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 1.3889vw;
+  justify-content: center;
+  padding: 0.2778vw 0.8333vw;
+  position: relative;
+}
+
+.frame .text-wrapper-2 {
+  color: #000000;
+  font-family: "Pangea Trial-Regular", Helvetica;
+  font-size: 0.6944vw;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.0694vw;
+  position: relative;
+  width: fit-content;
+}
+
+.frame .img {
+  height: 1.1111vw;
+  position: relative;
+  width: 1.1111vw;
+}
+
+.frame .p {
+  color: #919191;
+  font-family: "Pangea Trial-Regular", Helvetica;
+  font-size: 0.6944vw;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 17.7083vw; 
+}
+
+.frame.closed {
+  height: 1.1111vw;
+  overflow: hidden;
+}
+
+.frame.open {
+  height: 3.0556vw
+}
+
+.frame.closed .rectangle {
+  transform: rotate(135deg);
+}
+
+.frame.open .rectangle {
+  background-color: #000000;
+  transform: rotate(-180deg);
+}
+
+.frame.closed .div-wrapper {
+  opacity: 0;
+}
+
+.frame.open .img {
+  margin-left: -63.5417vw;
+  margin-top: -6.7708vw;
+} */

@@ -1,0 +1,217 @@
+.selection-section{
+    /* width: 100vw; */
+    height: 10vh;
+    border: 1px solid red;
+}
+
+.Queries_Main-Text_with_Skills{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.875rem;
+    margin-bottom: 20px;
+}
+
+@media(max-width:640px){
+    .individual-comment{
+        width: 45vw;
+    }
+}
+
+.Queries_Main-RHS-Text-Main{
+    /* width: 48.5625rem; */
+    max-height: 4.6875rem;
+
+    color: #000;
+
+    font-family: "Pangea Trial";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-container{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.comment-section{
+    margin-left: 2.5vw;
+    /* width: 55vw;    */
+    /* height: 65vh; */
+    /* border: 1px solid red; */
+    margin-top: 2.5vh;
+    /* padding: 5%; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.queries-section{
+    /* width: 25vw; */
+    height: 65vh;
+    margin-top: 5vh;
+    margin-right: 2vw;
+    background-color: white;
+    box-shadow: lightgray 0.2vw 0.2vw; 
+    overflow-x: auto;
+    
+}
+
+.individual-comment{
+    /* border: 1px solid blue;  */
+    display: inline-flex;
+    width: 52vw;
+    height: max-content;
+    padding: 1.75rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+
+    border-radius: 0.5rem;
+    background: #FFF;
+    margin-bottom: 2.5rem;
+}
+
+.individual-comment p{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 0px;
+}
+
+.skill-section{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.375rem;
+}
+
+.webd-tag{
+    display: flex;
+    padding: 0.25rem 0.375rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.875rem;
+    background: #EDECFF;
+}
+
+.uidesign-tag{
+    display: flex;
+    padding: 0.25rem 0.375rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.875rem;
+    background: #FFF1E3;
+}
+
+.appd-tag{
+    display: flex;
+    padding: 0.25rem 0.375rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.875rem;
+    background: #FFE3E3;
+}
+
+/* .tag{
+    background-color: lightblue;
+    font-size: 1.2vw;
+    margin: 1vh 0.5vw;
+    border-radius:  5% 5% 5% 5% ;
+} */
+
+.interaction-section{
+    display: flex;
+    /* width: 48.5625rem; */
+    justify-content: space-between;
+    gap: 1.5vw;
+    align-items: center;
+}
+
+.likes-iteracted{
+    display: flex;
+padding: 0.375rem 0.625rem;
+align-items: center;
+gap: 0.25rem;
+
+border-radius: 1.25rem;
+border: 1px solid #D9D9D9;
+
+background: #F5F5F7;
+}
+
+.comments-interacted{
+    display: flex;
+padding: 0.375rem 0.625rem;
+align-items: center;
+gap: 0.625rem;
+
+border-radius: 1.25rem;
+background: #F5F5F7;
+}
+
+.posted-when{
+    /* height: 1.5vh; */
+    /* width: 60%; */
+    /* align-items: flex-end; */
+    font-size: 1rem;
+    text-decoration-color: gray;
+}
+
+.queries-section h2{
+    padding: 1.5vw ;
+}
+
+.query-content{
+    padding: 1vw;
+}
+
+hr{
+    margin: 1vw;
+}
+
+.queries-posted{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.query-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw;
+}
+
+@media (min-width: 0px) and (max-width: 630px) {
+    .comment-section {
+        height: auto; /* Adjusted height */
+        width: 100%; /* Adjusted width */
+        justify-content: center;
+        padding: 5% 2%; /* Adjusted padding */
+    }
+
+    .section-container {
+        width: 100vw;
+        flex-direction: column; /* Adjusted flex-direction */
+    }
+
+    .queries-section {
+        height: auto; /* Adjusted height */
+        margin-top: 2.5vh; /* Adjusted margin */
+        margin-right: 0; /* Removed margin-right */
+    }
+
+    .individual-comment {
+        width: 80%; /* Adjusted width */
+        margin-bottom: 2rem; /* Adjusted margin */
+    }
+}
+
+
+.individual-comment:hover{
+    cursor: pointer;
+}

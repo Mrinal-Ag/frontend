@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Pangea Trial';
+    src: url('./PangeaTrial-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Pangea Trial';
+    src: url('./PangeaTrial-Medium.otf') format('opentype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+  }
+  

@@ -1,0 +1,425 @@
+.section{
+    display: flex;
+}
+
+.heading{
+    color: #656565;
+    font-family: "Pangea Trial";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    /* width: 16vw; */
+    margin-top: 6vw;
+    margin-left: 6vw;
+}
+
+.update-btn{
+    display: inline-flex;
+    padding: 0.3125rem 0.625rem;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.625rem;
+    border-radius: 2.5rem;
+    background: #D6F295;
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 3vw;
+    margin-top: 0px;
+}
+
+.user-info{
+    display: inline-flex;
+    padding-top: 2.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    margin-left: 5vw;
+    margin-bottom: 1vw;
+}
+
+.user-user{
+    display: flex;
+    padding: 1.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+    background: #FFF;
+    
+    /* Shadew 2 */
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.03), 0px 12px 12px 0px rgba(0, 0, 0, 0.03), 0px 48px 19px 0px rgba(0, 0, 0, 0.00), 0px 75px 21px 0px rgba(0, 0, 0, 0.00);
+}
+
+.edit-me{
+    color: #656565;
+    text-align: center;
+    font-family: "Pangea Trial";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 1.875rem;
+    border: 1px solid #656565;
+    display: flex;
+    width: 29.5vw;
+    padding: 0.875rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    cursor: pointer;
+}
+
+.user-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    align-self: stretch;
+    color: #656565;
+    font-family: "Pangea Trial";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    align-self: stretch;
+}
+
+.my-name{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.my-name img{
+    fill: #E2E2E2;
+    width: 3.375rem;
+    height: 3.375rem;
+    background-color: #656565;
+    border-radius: 50%;
+}
+
+.final-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+.p1{
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: start;
+}
+
+.p2{
+    color: #929292;
+    font-family: "Pangea Trial";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: start;
+}
+
+.about-proj{
+    display: flex;
+    padding-top: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    border-top: 1px solid #D9D9D9;
+}
+
+.category{
+    display: flex;
+    width: 25.5vw;
+    justify-content: space-between;
+    align-items: center;
+    color: #929292;
+    font-family: "Pangea Trial";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.cat-names{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.375rem;
+}
+
+.badge1{
+    display: flex;
+    padding: 0.25rem 0.375rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.875rem;
+    background: #EDECFF;
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Pangea Trial";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 200% */
+    letter-spacing: -0.0125rem;
+}
+
+.badge2{
+    display: flex;
+    padding: 0.25rem 0.375rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.875rem;
+    background: #FFE3E3;
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Pangea Trial";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 200% */
+    letter-spacing: -0.0125rem;
+}
+
+.tools-used{
+    display: flex;
+    width: 25.5vw;
+    justify-content: space-between;
+    align-items: center;
+    color: #929292;
+    font-family: "Pangea Trial";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tools-used p{
+    overflow: hidden;
+    color: #000;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-overflow: ellipsis;
+    font-family: "Pangea Trial";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 166.667% */
+    letter-spacing: -0.015rem;
+    display: -webkit-box;
+    max-width: 17.1875rem;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+/* Review column  */
+.right-review{
+    display: flex;
+    flex-direction: column;
+    width: 58vw;
+    margin: 5vw;
+}
+
+.right-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right-head p{
+    color: #656565;
+    font-family: "Pangea Trial";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-head button{
+    display: inline-flex;
+    padding: 0.375rem 0.75rem;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    border-radius: 1.25rem;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.post-div{
+    display: flex;
+    width: 55.4vw;
+    padding: 1.25rem;
+    align-items: flex-end;
+    gap: 1.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+    margin-top: 6%;
+}
+
+.post-div input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.post-btn{
+    background-color: #FFF;
+    border: none;
+    width: 2.5625rem;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.posted-reviews{
+    display: flex;
+    width: 52.8vw;
+    margin-top: 20px;
+    min-height: 27.875rem;
+    padding: 2.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5625rem;
+    border-radius: 0.5rem;
+    background: #FFF;
+}
+
+.one-post{
+    display: flex;
+    padding-bottom: 1.5rem;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.poster-pic{
+    width: 3rem;
+    height: 3rem;
+    fill: #D9D9D9;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+
+.poster-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex: 1 0 0;
+
+}
+
+.div-1{
+    display: flex;
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+    width: auto;
+}
+
+.d1{
+    display: inline-block;
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.d2{
+
+    color: #929292;
+    font-family: "Pangea Trial";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.the-comment{
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+}
+
+
+@media (max-width: 800px){
+    .section{
+        flex-direction: column;
+    }
+
+    
+
+    .heading{
+        margin-top: 85px;
+    }
+
+    .user-user{
+        width: -webkit-fill-available;
+        
+    }
+
+    .about-proj{
+        width: -webkit-fill-available;
+    }
+    .category{
+        width: -webkit-fill-available;
+    }
+
+    .tools-used{
+        width: -webkit-fill-available;
+    }
+
+    .edit-me{
+        width: -webkit-fill-available;
+    }
+
+    .right-review{
+        width: -webkit-fill-available;
+    }
+
+    .post-div{
+        width: -webkit-fill-available;
+    }
+
+    .posted-reviews{
+        width: -webkit-fill-available;
+    }
+  }

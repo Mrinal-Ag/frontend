@@ -1,0 +1,141 @@
+.app {
+  margin: 35px;
+  /* margin-top: 2rem; */
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ensures the nav takes full width */
+}
+
+.view-profile-open,
+.view-profile-close,
+.view-expertise-open,
+.view-expertise-close {
+  width: 100%; /* Ensures each section takes full width */
+  margin: 0.5rem 0;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.03),
+              0px 12px 12px 0px rgba(0, 0, 0, 0.03),
+              0px 27px 16px 0px rgba(0, 0, 0, 0.02),
+              0px 48px 19px 0px rgba(0, 0, 0, 0),
+              0px 75px 21px 0px rgba(0, 0, 0, 0);
+}
+
+.view-profile-open,
+.view-expertise-open {
+  display: flex;
+  padding: 0.5rem;
+  transition: max-height 0.3s ease;
+  height: 18rem;
+  max-height: 1000rem; 
+  
+}
+
+.view-profile-close,
+.view-expertise-close {
+  display: flex;
+  padding: 0.5rem;
+  transition: max-height 0.3s ease;
+  /* max-height: 0; Collapse to zero height when closed */
+  overflow: hidden;
+  height: 3.5rem;
+  
+}
+
+.profile-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #fff;
+  color: #656565;
+  font-family: "Pangea Trial";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 1rem; /* Add padding for better click area */
+}
+
+.profile-btn img {
+  width: 0.875rem;
+  height: 1.5rem;
+}
+
+.profile-details,
+.expertise-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-head,
+.education div,
+.data1 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-head img,
+.education div img,
+.data1 img {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+}
+
+.data1 {
+  justify-content: space-between;
+  padding: 10px;
+  /* border: 1px solid #ccc; Optional: for visual separation */
+  margin-bottom: 10px; /* Optional: for spacing between items */
+}
+
+.Star {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+.Sidarrow:hover,
+.profile-btn:hover {
+  cursor: pointer;
+}
+
+.follow-btn {
+  /* background-color: #007bff; */
+  color: rgb(150, 145, 145);
+  border: none;
+  padding: 0.5rem 1rem; 
+  margin-top: 1rem; 
+  font-size: 1rem; 
+  border-radius: 5rem; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  border: 2px solid rgb(150, 145, 145);
+}
+
+.follow-btn:hover {
+  background-color: #b3bbc0; 
+  color: rgb(104, 104, 104);
+}
+

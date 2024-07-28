@@ -1,0 +1,134 @@
+.noti-boss{
+    /* display: inline-flex; */
+    padding: 1.25rem;
+    padding-top: 0px;
+    /* align-items: flex-start; */
+    /* gap: 1.25rem; */
+    border-radius: 0.5rem;
+    background: #FFF;
+    display: flex;
+    width: 23.3125rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+}
+
+.noti-butn{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.25rem;
+    align-self: stretch;
+}
+
+.noti-decline{
+    display: flex;
+    padding: 0.375rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 2.5rem;
+    border: 1px solid #D3D3D3;
+    background: #F5F5F7;
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.noti-accept{
+    display: flex;
+    padding: 0.375rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 2.5rem;
+    background: #BAE84D;
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.noti-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.375rem;
+    align-self: stretch;
+    color: #656565;
+    font-family: "Pangea Trial";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: stretch;
+}
+
+.noti-noti{
+    display: flex;
+    padding: 0.5rem 0rem;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.noti-noti img{
+    border-radius: 50%;
+    width: 3.0625rem;
+    height: 3.0625rem;
+    fill: #D9D9D9;
+    color: #D9D9D9;
+    background: #D9D9D9;
+}
+
+.noti-info{
+    display: flex;
+    padding: 0.5rem 0rem;
+    /* align-items: center; */
+    /* gap: 0.5rem; */
+    align-self: stretch;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.125rem;
+    flex: 1 0 0;
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.noti-div2{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.noti-loc{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    align-self: stretch;
+    color: #929292;
+    font-family: "Pangea Trial";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.noti-loc img{
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.noti-loc p{
+    margin: 0;
+}

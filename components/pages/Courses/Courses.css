@@ -1,0 +1,50 @@
+.Coursess{
+    background: #f3f3f6;
+    margin-top: 80px;
+    margin-right: 15px;
+}
+
+.Courses_Main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.RHS_Main{
+    /* padding: 4vw 1vw 2vw 0vw; */
+    
+    background: #f3f3f6;
+
+    /* width: 25%; */
+    /* margin-right: 0; */
+}
+
+.Top3AndAddCourse{
+    /* width: 75%; */
+    /* background-color: red; */
+    /* margin-top: 10vh; */
+}
+
+@media screen and (max-width: 978px) {
+    .Courses_Main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .RHS_Main{
+        align-items: center;
+    }
+    
+}
+
+.Newww{
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    margin-top: 6rem;
+}
+
+@media (min-width:0px) and (max-width:500px){
+    .Newww{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

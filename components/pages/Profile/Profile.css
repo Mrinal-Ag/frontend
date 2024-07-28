@@ -1,0 +1,220 @@
+body{
+  background: hsl(240, 11%, 96%);
+  
+}
+
+.Profile {
+  width: 100%;
+  display: flex;
+  margin-top: 8.5vh;
+}
+
+.prof-homer{
+  margin-top: 3rem;
+  /* width: 60%; */
+}
+
+.profile_nav {
+  width: 62vw;
+  display: flex;
+  margin-left: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_pjt_view {
+  color: #656565;
+  font-family: "Pangea Trial";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: auto;
+}
+
+.profile_btn {
+  display: flex;
+  
+}
+
+.profile_complete_btn {
+  padding: 5px 12px;
+  border-radius: 40px;
+  /* background: #BAE84D; */
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.activeStatus{
+  background-color: #BAE84D;
+  border-radius: 40px;
+}
+
+.profile_ongoing_btn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.show-project{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  
+  gap: 2rem;
+  /* width: 62rem; */
+}
+
+.project-box {
+  display: flex;
+  width: 30vw;
+
+  flex-direction: column;
+}
+
+.show-button{
+  display: inline-flex;
+  /* padding: 5rem 3.375rem; */
+  padding: 4.5vw 4vw 8vw 4vw;
+  margin: 0vw 0vw 2vw 0.7vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.375rem;
+  border: 2px dashed #E2E2E2;
+  background: #FFF;
+  width: 11.9375rem;
+  height: 3rem;
+  color: #929292;
+  text-align: center;
+  font-family: "Pangea Trial";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link{
+  display: flex;
+  text-decoration: none;
+  padding: 0.5rem 0.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 2.5rem;
+  border: 2px solid #BAE84D;
+  background: rgba(186, 232, 77, 0.50);
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.show-divs{
+  display: inline-flex;
+  padding: 4.5vw 4vw 8vw 4vw;
+  margin: 0vw 0vw 2vw 0.92vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.375rem;
+  border: 2px #E2E2E2;
+  background: #FFF;
+  width: 11.9375rem;
+  height: 3rem;
+  color: #929292;
+  text-align: center;
+  font-family: "Pangea Trial";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+@media(min-width:769px){
+  .Profile{
+    margin-top:6vh;
+  }
+}
+@media(max-width:500px){
+  .Profile{
+    margin-top:0px;
+  }
+}
+@media(max-width:400px){
+  .Profile{
+    margin-top:0vh;
+  }
+}
+
+
+.project-image {
+  border-radius: 0.25rem;
+  border: 1px solid #D3D3D3;
+
+ 
+  outline: none;
+  border: none;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media (max-width: 769px) {
+  .Profile {
+    margin-top: 6vh;
+  }
+  .profile_pjt_view {
+    font-size: 3vh;
+  }
+  .profile_complete_btn {
+    font-size: 2vh;
+  }
+  .profile_ongoing_btn {
+    font-size: 1.75vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .Profile {
+    margin-top: 0;
+  }
+  .profile_pjt_view {
+    font-size: 2.5vh;
+  }
+  .profile_complete_btn {
+    font-size: 2vh;
+  }
+  .profile_ongoing_btn {
+    font-size: 1.5vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .Profile {
+    margin-top: 0;
+  }
+  .profile_pjt_view {
+    font-size: 2vh;
+  }
+  .profile_complete_btn {
+    font-size: 1.5vh;
+  }
+  .profile_ongoing_btn {
+    font-size: 1vh;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .project-box{
+    width: 50vw;
+  }
+  .project-image{
+    width: 100%;
+  }
+}

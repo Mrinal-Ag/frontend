@@ -1,0 +1,210 @@
+.Project_Overlay{
+    display: flex;
+width: 50rem;
+height: auto;
+padding: 2.5rem;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+
+border-radius: 0.5rem;
+background: #f1eded;
+}
+
+.Project_Overlay_Upper_Part{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.75rem;
+align-self: stretch;
+}
+
+.Project_Overlay_Top2{
+    display: flex;
+align-items: flex-end;
+gap: 1.5rem;
+align-self: stretch;
+}
+
+.Project_Overlay_img{
+
+    width: 21.75rem;
+    background-color: #d4d4d4;
+    /* background-color: red; */
+    height: 15rem;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+flex: 1 0 0;
+}
+
+.Project_Overlay_Project_Name{
+    display: flex;
+    padding: 0.625rem 1rem;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+
+    border-radius: 0.25rem;
+border: 1px solid #D3D3D3;
+background: #F5F5F7;
+}
+
+.Project_Overlay_img_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex: 1 0 0;
+}
+
+.Project_Overlay_Name{
+    align-self: stretch;
+
+    color: #656565;
+font-family: "Pangea Trial";
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.Project_Overlay_Mid_Input{
+    display: flex;
+align-items: flex-start;
+gap: 1.5rem;
+align-self: stretch;
+}
+
+.Project_Overlay_Category_Name{
+    align-self: stretch;
+
+    color: #656565;
+font-family: "Pangea Trial";
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.Project_Overlay_Category{
+    display: flex;
+    padding: 0.625rem 0.75rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+
+    border-radius: 0.25rem;
+border: 1px solid #D3D3D3;
+background: #F5F5F7;
+}
+
+.Project_Overlay_Project_Status{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+
+.Project_Overlay_Bottom{
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex: 3 1 1;
+align-self: stretch;
+}
+
+.Project_Overlay_Categories{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+flex: 1 0 0;
+}
+
+.Project_Overlay_Project_Status_Name{
+    /* align-self: stretch; */
+
+    color: #656565;
+font-family: "Pangea Trial";
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.Project_Overlay_Cancel{
+    display: flex;
+padding: 0.625rem 2rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+
+border-radius: 2.5rem;
+border: 1px solid #656565;
+
+color: #656565;
+text-align: center;
+font-family: "Pangea Trial";
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
+}
+
+.Project_Overlay_Publish{
+    text-decoration: none;
+    display: flex;
+padding: 0.625rem 1.5rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+
+border: none;
+border-radius: 2.5rem;
+background: #BAE84D;
+
+color: #000;
+font-family: "Pangea Trial";
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
+}
+
+.Radio_Input{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    flex: 1 0 0;
+}
+
+/* Change color of the dot when checked */
+#option1{
+    accent-color:  #BAE84D;
+    border: none;
+}
+#option2{
+    accent-color:  #BAE84D;
+}
+
+
+.Project_Status_Text{
+    flex: 1 0 0;
+
+    color: #656565;
+font-family: "Pangea Trial";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.Radio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
